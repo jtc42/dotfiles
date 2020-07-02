@@ -3,6 +3,7 @@ fpath+=$HOME/.zsh
 
 # Aliases
 alias npp="notepad++.exe"
+alias ws="websocat"
 
 # Antigen + oh-my-zsh
 source $HOME/.zsh/antigen.zsh
