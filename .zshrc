@@ -24,10 +24,12 @@ antigen bundle z
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 #antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle mafredri/zsh-async
+#antigen bundle mafredri/zsh-async
 
 # Pure prompt
-antigen bundle sindresorhus/pure
+# antigen bundle sindresorhus/pure
 
 # Tell Antigen that you're done.
 antigen apply
+
+eval "$(starship init zsh)"
