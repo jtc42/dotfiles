@@ -57,5 +57,7 @@ antigen bundle command-not-found
 
 antigen bundle darvid/zsh-poetry
 
+antigen apply
+
 # Starship prompt
 eval "$(starship init zsh)"
