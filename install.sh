@@ -3,4 +3,5 @@ mkdir -p $HOME/.zsh
 curl -L git.io/antigen > $HOME/.zsh/antigen.zsh
 
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.zshenv ~/.zshenv
 ln -s ~/dotfiles/.zprofile ~/.zprofile
