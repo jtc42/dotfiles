@@ -9,3 +9,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+if [[ `uname` == "Darwin" ]]; then
+    export PATH="/opt/homebrew/bin:$PATH"
+fi
