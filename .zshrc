@@ -55,8 +55,6 @@ antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
 
-antigen bundle darvid/zsh-poetry
-
 antigen apply
 
 # Starship prompt
