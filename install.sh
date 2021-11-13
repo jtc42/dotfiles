@@ -2,7 +2,7 @@ SCRIPT_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 echo $SCRIPT_DIR
 
 if ! command -v starship &> /dev/null; then
-  sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+  sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
 fi
 
 mkdir -p $HOME/.zsh
