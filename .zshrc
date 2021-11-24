@@ -51,6 +51,9 @@ HISTFILE=~/.zsh_history
 
 source $HOME/.zsh/antigen.zsh
 
+antigen use oh-my-zsh
+
+antigen bundle dotenv
 antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
