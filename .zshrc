@@ -57,6 +57,9 @@ antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
 
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
 antigen apply
 
 # Starship prompt
