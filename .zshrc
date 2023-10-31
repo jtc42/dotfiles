@@ -32,6 +32,13 @@ if [[ `uname` == "Darwin" ]]; then
 	alias brew64="arch -x86_64 /usr/local/bin/brew"
 fi
 
+## WSL-specific aliases
+
+if [[ $(grep -i Microsoft /proc/version) ]]; then
+    alias pwsh="pwsh.exe"
+    alias npp="notepad++.exe"
+fi
+
 # Useful functions
 
 ## Switch directory and list
