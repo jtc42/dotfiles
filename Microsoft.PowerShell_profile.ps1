@@ -8,7 +8,21 @@ $MaximumHistoryCount = 10000
 Set-PSReadlineKeyHandler -Chord Tab -Function MenuComplete
 
 # Useful aliases
+
+## WSL
 Set-Alias $ wsl.exe -Option AllScope
+
+## Python environments
+function New-Venv {
+    & 'python3' '-m' 'venv' './.venv'
+}
+
+function Set-Venv {
+    & ./.venv/Scripts/Activate.ps1
+}
+
+Set-Alias ve New-Venv
+Set-Alias va Set-Venv
 
 # HELPER FUNCTIONS
 # Pkill
