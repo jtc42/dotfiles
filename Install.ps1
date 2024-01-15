@@ -35,8 +35,6 @@ if ($confirmation -eq 'y') {
     winget install --id voidtools.Everything --source winget
     Write-Output "Installing PowerToys..."
     winget install Microsoft.PowerToys --source winget
-    Write-Output "Installing 7zip..."
-    winget install --id 7zip.7zip --source winget
     Write-Output "Installing VSCode..."
     winget install --id Microsoft.VisualStudioCode --source winget
 }
