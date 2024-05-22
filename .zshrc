@@ -33,8 +33,7 @@ if [[ `uname` == "Darwin" ]]; then
 fi
 
 ## WSL-specific aliases
-
-if [[ $(grep -i Microsoft /proc/version) ]]; then
+if [[ -f /proc/version && $(grep -i Microsoft /proc/version) ]]; then
     alias pwsh="pwsh.exe"
     alias npp="notepad++.exe"
 fi
