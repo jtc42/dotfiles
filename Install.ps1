@@ -29,4 +29,6 @@ if ($confirmation -eq 'y') {
     winget install Microsoft.PowerToys --source winget
     Write-Output "Installing VSCode..."
     winget install --id Microsoft.VisualStudioCode --source winget
+	Write-Output "Installing Flow Launcher..."
+	winget install --id=Flow-Launcher.Flow-Launcher --source winget
 }
