@@ -1,5 +1,4 @@
 # Imports
-Import-Module PSColor
 
 # Increase history
 $MaximumHistoryCount = 10000
@@ -43,3 +42,7 @@ $Env:Path += ";$($env:USERPROFILE)\Scripts"
 
 # Invoke Starship prompt
 Invoke-Expression (&starship init powershell)
+
+#f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
+Import-Module -Name Microsoft.WinGet.CommandNotFound
+#f45873b3-b655-43a6-b217-97c00aa0db58
